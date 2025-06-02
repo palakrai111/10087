@@ -23,7 +23,7 @@ public class batch {
         
         
         
-        Set<Integer> s = hm.keySet();
+        Set<Integer> s = hm.keySet();  // [10087, 8790]
         for(int i : s)
         {
         	if(i == 10087)

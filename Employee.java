@@ -1,25 +1,28 @@
-package in.sp.backend;
 
-public class Employee 
-{
-	int eid;
-	String ename;
+public class Employee {
+	
+	int id;
+	String name;
 	@Override
 	public String toString() {
-		return  eid + "*" + ename ;
+		return "Employee [id=" + id + ", name=" + name + "]";
 	}
-	public int getEid() {
-		return eid;
+	public Employee(int id, String name) {
+		super();
+		this.id = id;
+		this.name = name;
 	}
-	public void setEid(int eid) {
-		this.eid = eid;
+	public int getId() {
+		return id;
 	}
-	public String getEname() {
-		return ename;
+	public void setId(int id) {
+		this.id = id;
 	}
-	public void setEname(String ename) {
-		this.ename = ename;
+	public String getName() {
+		return name;
 	}
-	
+	public void setName(String name) {
+		this.name = name;
+	}
 
 }
